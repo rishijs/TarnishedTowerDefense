@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://blbhyd2ire2rq"]
+
+[ext_resource type="Script" path="res://Scripts/Bastion.gd" id="2_53xgg"]
+[ext_resource type="Texture2D" uid="uid://ckuw15d60wii5" path="res://Art/Bastion_Iso_R.png" id="2_wbowx"]
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="3_w5u4e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ho88i"]
+bg_color = Color(0.333333, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iuleb"]
+bg_color = Color(1, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+
+[node name="Bastion" type="Area2D" groups=["Bastion"]]
+z_index = 99
+script = ExtResource("2_53xgg")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -96.0
+offset_top = -88.0
+offset_right = 32.0
+offset_bottom = 40.0
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("2_wbowx")
+expand_mode = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+self_modulate = Color(1, 1, 1, 0.67451)
+offset_left = -120.0
+offset_top = -40.0
+offset_right = 23.0
+offset_bottom = -13.0
+rotation = -0.471239
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_w5u4e")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/background = SubResource("StyleBoxFlat_ho88i")
+theme_override_styles/fill = SubResource("StyleBoxFlat_iuleb")
+value = 100.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+self_modulate = Color(1, 1, 1, 0.321569)
+show_behind_parent = true
+position = Vector2(-400, -184)
+polygon = PackedVector2Array(400, 216, 320, 256, 400, 288, 480, 248)
+
+[node name="Countdown" type="Label" parent="."]
+visible = false
+offset_left = -72.0
+offset_top = 8.0
+offset_right = -32.0
+offset_bottom = 49.0
+rotation = 0.314159
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_w5u4e")
+theme_override_font_sizes/font_size = 30
+text = "---"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

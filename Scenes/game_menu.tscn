@@ -1,0 +1,138 @@
+[gd_scene load_steps=12 format=3 uid="uid://dwsyf2nahnsdq"]
+
+[ext_resource type="Script" path="res://Scripts/game_menu.gd" id="1_33d5g"]
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="1_vv884"]
+[ext_resource type="StyleBox" uid="uid://b3tf6a65n672a" path="res://Presets/new_style_box_flat.tres" id="2_dsbg7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mstwk"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.8, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_udiud"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 0.211765, 0.160784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ojwny"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0.505882, 0.317647, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b4tqv"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0.678431, 0.188235, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j0t2y"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0.882353, 0.407843, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_inn52"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t11r1"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.164706, 0.396078, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aj1wx"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.403922, 0.592157, 1, 1)
+
+[node name="game_menu" type="CanvasLayer"]
+script = ExtResource("1_33d5g")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.196078, 0.196078, 0.196078, 0.654902)
+
+[node name="Main_Menu" type="Button" parent="."]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.389
+anchor_top = 0.395
+anchor_right = 0.611
+anchor_bottom = 0.469
+offset_left = -0.12796
+offset_top = 8.03999
+offset_right = 0.128052
+offset_bottom = 8.08798
+theme_override_fonts/font = ExtResource("1_vv884")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_mstwk")
+theme_override_styles/hover = SubResource("StyleBoxFlat_udiud")
+theme_override_styles/pressed = ExtResource("2_dsbg7")
+text = "MAIN MENU"
+
+[node name="Resume" type="Button" parent="."]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.396
+anchor_top = 0.296
+anchor_right = 0.611
+anchor_bottom = 0.37
+offset_left = -8.19205
+offset_top = 0.192001
+offset_right = 0.127991
+offset_bottom = 0.23999
+theme_override_fonts/font = ExtResource("1_vv884")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_ojwny")
+theme_override_styles/hover = SubResource("StyleBoxFlat_b4tqv")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j0t2y")
+text = "RESUME"
+
+[node name="Quit" type="Button" parent="."]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.389
+anchor_top = 0.519
+anchor_right = 0.611
+anchor_bottom = 0.605
+offset_left = -0.128021
+offset_top = -0.312042
+offset_right = 0.127991
+offset_bottom = -8.04001
+theme_override_fonts/font = ExtResource("1_vv884")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_inn52")
+theme_override_styles/hover = SubResource("StyleBoxFlat_t11r1")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_aj1wx")
+text = "QUIT"
+
+[connection signal="pressed" from="Main_Menu" to="." method="_on_main_menu_pressed"]
+[connection signal="pressed" from="Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

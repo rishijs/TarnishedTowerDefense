@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://cpvlsl3tsgg1s"]
+
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="1_y6cy2"]
+[ext_resource type="Script" path="res://Scripts/Return_Main.gd" id="2_n1jlc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wa8uh"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w4eun"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fwxsm"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+
+[node name="Return" type="Button"]
+anchors_preset = -1
+anchor_left = 0.667
+anchor_top = 0.111
+anchor_right = 0.889
+anchor_bottom = 0.198
+offset_left = -0.384033
+offset_top = 0.071991
+offset_right = -0.128052
+offset_bottom = -0.304016
+theme_override_fonts/font = ExtResource("1_y6cy2")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_wa8uh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w4eun")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_fwxsm")
+text = "MAIN MENU"
+script = ExtResource("2_n1jlc")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

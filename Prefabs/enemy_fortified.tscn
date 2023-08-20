@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://nfvn4nlp3o18"]
+
+[ext_resource type="Script" path="res://Scripts/EnemyBase.gd" id="1_3160b"]
+[ext_resource type="Texture2D" uid="uid://dvcv7a80vnd5r" path="res://Art/enemy_fortified.png" id="2_hxf4w"]
+[ext_resource type="Texture2D" uid="uid://bm0iuiwxf41sr" path="res://Art/enemy_burning.png" id="3_xm7j0"]
+[ext_resource type="Texture2D" uid="uid://bhufp3lb3ont0" path="res://Art/enemy_frozen.png" id="4_2h2rp"]
+
+[node name="Enemy_Fortified" type="PathFollow2D" groups=["enemy"]]
+process_mode = 1
+z_index = 10
+scale = Vector2(1.75, 1.75)
+script = ExtResource("1_3160b")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(5, 8.89849)
+polygon = PackedVector2Array(-5, -33.8985, -30, -8.89849, -4, 17.1015, 21, -8.89849)
+
+[node name="Enemy" type="Sprite2D" parent="Area2D"]
+position = Vector2(0.793152, 0.273746)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_hxf4w")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_xm7j0")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("4_2h2rp")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

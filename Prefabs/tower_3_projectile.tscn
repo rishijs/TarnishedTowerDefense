@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxfympslkxjv0"]
+
+[ext_resource type="Script" path="res://Scripts/Projectile_Flame.gd" id="1_tyl6u"]
+[ext_resource type="Texture2D" uid="uid://baqko54rkfvga" path="res://Art/Flame_projectile.png" id="2_vbvvb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pk6ne"]
+radius = 23.0868
+
+[node name="Tower3Projectile" type="RigidBody2D" groups=["Projectile", "Projectile3"]]
+process_thread_group = 2
+process_thread_group_order = 0
+process_thread_messages = 2
+collision_layer = 2
+gravity_scale = 0.0
+angular_damp_mode = 1
+script = ExtResource("1_tyl6u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_vbvvb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+show_behind_parent = true
+position = Vector2(0, -4)
+shape = SubResource("CircleShape2D_pk6ne")

@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://6mfaggunv8us"]
+
+[ext_resource type="Script" path="res://Scripts/Projectile_Lunar.gd" id="1_hlusc"]
+[ext_resource type="Texture2D" uid="uid://belav70yc2hpi" path="res://Art/lunar_projectile.png" id="2_dh5ck"]
+
+[node name="Tower2Projectile" type="RigidBody2D" groups=["Projectile", "Projectile2"]]
+process_thread_group = 2
+process_thread_group_order = 0
+process_thread_messages = 2
+scale = Vector2(0.5, 0.5)
+collision_layer = 2
+gravity_scale = 0.0
+angular_damp_mode = 1
+script = ExtResource("1_hlusc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 16)
+rotation = 2.09439
+texture = ExtResource("2_dh5ck")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(9, 12)
+polygon = PackedVector2Array(-43, -4, -33, -20, -25, -28, -5, -30, 9, -24, 17, -18, 23, 4, 15, 18, 7, 6, -3, -6, -17, -4, -23, 12, -25, 24, -39, 14)

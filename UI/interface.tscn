@@ -1,0 +1,598 @@
+[gd_scene load_steps=27 format=3 uid="uid://ca7dobqxxvkvh"]
+
+[ext_resource type="Texture2D" uid="uid://cr4hbtfxmuigx" path="res://UI/More.png" id="1_6ppmm"]
+[ext_resource type="Script" path="res://UI/interface.gd" id="1_ip2b4"]
+[ext_resource type="Texture2D" uid="uid://dhdoyc3psbmd8" path="res://Art/slider3.png" id="2_dp336"]
+[ext_resource type="Texture2D" uid="uid://dv0co1j7ildov" path="res://Art/slider4.png" id="3_815oq"]
+[ext_resource type="Texture2D" uid="uid://viguyymrlwy3" path="res://Art/Ice_tower.png" id="3_ggdhd"]
+[ext_resource type="Texture2D" uid="uid://bp05nhv581sta" path="res://Art/Lunar_tower_darker.png" id="4_ep63d"]
+[ext_resource type="Texture2D" uid="uid://bd2uehjfdsxei" path="res://Art/Pause.png" id="5_4t5yt"]
+[ext_resource type="AudioStream" uid="uid://dhuhl6v6qheup" path="res://Sound/repair_sound.ogg" id="5_t8jbk"]
+[ext_resource type="Texture2D" uid="uid://cyedqemksgqwg" path="res://Art/Flame_tower.png" id="5_yfg4n"]
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="6_cjjee"]
+[ext_resource type="Texture2D" uid="uid://ybdqpucljvx0" path="res://Art/Restart.png" id="6_iqvy4"]
+[ext_resource type="Texture2D" uid="uid://ca6a0rbsvgb1g" path="res://Art/Play.png" id="6_routs"]
+[ext_resource type="Texture2D" uid="uid://bwk5xax6htc38" path="res://Art/Mute.png" id="12_ffqc1"]
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_mhqwb"]
+color = Color(0.133333, 0.490196, 0.360784, 1)
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_abdep"]
+bg_color = Color(0.501961, 0, 1, 1)
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_11613"]
+bg_color = Color(0.501961, 0, 1, 1)
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_m4p0a"]
+color = Color(0.498039, 0.490196, 0.360784, 1)
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kkvf3"]
+bg_color = Color(0.501961, 0, 0.301961, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b62qn"]
+bg_color = Color(0.501961, 0, 0.301961, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yrfea"]
+bg_color = Color(0.235294, 0, 0.160784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d4pup"]
+content_margin_left = 20.0
+bg_color = Color(0.176471, 0.0392157, 0.247059, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_87wfn"]
+content_margin_left = 20.0
+bg_color = Color(0.247059, 0.00392157, 0.0941176, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_15qbj"]
+content_margin_left = 20.0
+bg_color = Color(0.121569, 0.0431373, 0.317647, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aen2g"]
+bg_color = Color(0.176471, 0.0392157, 0.247059, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_msffh"]
+bg_color = Color(0.560784, 0.823529, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mbhhc"]
+bg_color = Color(0, 0.709804, 0.478431, 1)
+
+[node name="interface" type="CanvasLayer" groups=["Interface"]]
+script = ExtResource("1_ip2b4")
+
+[node name="CorruptionSlider" type="HSlider" parent="." groups=["CorruptionSlider"]]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.675
+anchor_top = 0.952
+anchor_right = 0.892
+anchor_bottom = 1.002
+offset_left = 0.399963
+offset_top = 12.104
+offset_right = 0.416016
+offset_bottom = -0.296082
+grow_vertical = 0
+theme_override_icons/grabber = ExtResource("2_dp336")
+theme_override_icons/grabber_highlight = ExtResource("3_815oq")
+theme_override_icons/grabber_disabled = ExtResource("2_dp336")
+theme_override_styles/slider = SubResource("StyleBoxLine_mhqwb")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_abdep")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_11613")
+value = 50.0
+
+[node name="SlowSlider" type="HSlider" parent="." groups=["SlowSlider"]]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.458
+anchor_top = 0.951
+anchor_right = 0.675
+anchor_bottom = 1.002
+offset_left = 0.383972
+offset_top = 12.752
+offset_right = 0.399963
+offset_bottom = -0.296082
+grow_vertical = 0
+theme_override_icons/grabber = ExtResource("2_dp336")
+theme_override_icons/grabber_highlight = ExtResource("3_815oq")
+theme_override_icons/grabber_disabled = ExtResource("2_dp336")
+theme_override_styles/slider = SubResource("StyleBoxLine_m4p0a")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_kkvf3")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_b62qn")
+value = 50.0
+
+[node name="Slow" type="Label" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.465
+anchor_top = 0.963
+anchor_right = 0.557
+anchor_bottom = 0.992
+offset_left = 0.319946
+offset_top = -0.0240479
+offset_right = 0.335938
+offset_bottom = 0.18396
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 12
+text = "SLOW ENEMIES"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.597
+anchor_top = 0.963
+anchor_right = 0.648
+anchor_bottom = 0.992
+offset_left = 0.255981
+offset_top = -0.0240479
+offset_right = -0.495972
+offset_bottom = 0.18396
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 12
+text = "SCORE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Money" type="Label" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.812
+anchor_top = 0.963
+anchor_right = 0.861
+anchor_bottom = 0.992
+offset_left = 0.575928
+offset_top = -0.0240479
+offset_right = -0.87207
+offset_bottom = 0.18396
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 12
+text = "MONEY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CorruptionProof" type="Label" parent="."]
+visible = false
+anchors_preset = -1
+anchor_left = 0.675
+anchor_top = 0.963
+anchor_right = 0.785
+anchor_bottom = 0.995
+offset_left = 0.399963
+offset_top = -0.0240479
+offset_right = -0.320007
+offset_bottom = -1.76007
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 12
+text = "PROTECTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hotbar" type="ColorRect" parent="."]
+anchors_preset = -1
+anchor_left = 0.944
+anchor_right = 1.007
+anchor_bottom = 1.0
+offset_left = -0.488037
+offset_right = -8.06396
+color = Color(0, 0.137255, 0.137255, 1)
+
+[node name="LocationSelect" type="OptionButton" parent="Hotbar" groups=["LocationsDropdown"]]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.969
+anchor_top = 0.148
+anchor_right = 0.985
+anchor_bottom = 0.219
+offset_left = -0.0149956
+offset_top = 0.0960007
+offset_right = -1.025
+offset_bottom = 0.0879974
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/focus = SubResource("StyleBoxFlat_yrfea")
+theme_override_styles/normal = SubResource("StyleBoxFlat_d4pup")
+theme_override_styles/hover = SubResource("StyleBoxFlat_87wfn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_15qbj")
+item_count = 2
+selected = 0
+popup/item_0/text = "SELECT"
+popup/item_0/id = 0
+popup/item_1/text = "CANCEL"
+popup/item_1/id = 1
+
+[node name="RepairButton" type="Button" parent="Hotbar"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.969
+anchor_top = 0.864
+anchor_right = 1.0
+anchor_bottom = 0.924
+offset_left = -0.0149956
+offset_top = 0.127991
+offset_right = -1.0
+offset_bottom = 0.247986
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_aen2g")
+theme_override_styles/hover = SubResource("StyleBoxFlat_msffh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_mbhhc")
+text = "FIX TOWERS
+"
+
+[node name="Cost" type="Label" parent="Hotbar/RepairButton"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.504
+anchor_top = 1.154
+anchor_right = 1.0
+anchor_bottom = 1.744
+offset_left = -1.008
+offset_top = -0.00600052
+offset_right = 1.0
+offset_bottom = -0.0160065
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+text = "1000"
+horizontal_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Hotbar/RepairButton" groups=["RepairButton", "audio"]]
+stream = ExtResource("5_t8jbk")
+
+[node name="Tower1B" type="Button" parent="Hotbar"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.235
+anchor_right = 1.0
+anchor_bottom = 0.37
+offset_left = 1.0
+offset_top = 7.71999
+offset_right = -1.0
+offset_bottom = 0.23999
+
+[node name="Tower" type="TextureRect" parent="Hotbar/Tower1B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.083
+anchor_right = 1.016
+anchor_bottom = 0.75
+offset_left = -1.0
+offset_top = -6.64
+offset_right = -1.008
+offset_bottom = 5.0
+texture = ExtResource("3_ggdhd")
+expand_mode = 1
+
+[node name="Cost" type="Label" parent="Hotbar/Tower1B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.016
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.302
+offset_left = 1.008
+offset_bottom = 4.84
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+text = "500"
+horizontal_alignment = 1
+
+[node name="Tower2B" type="Button" parent="Hotbar"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.015
+anchor_top = 0.432
+anchor_right = 1.0
+anchor_bottom = 0.556
+offset_left = 0.0249999
+offset_top = 0.0639954
+offset_right = -1.0
+offset_bottom = -0.288055
+
+[node name="Tower" type="TextureRect" parent="Hotbar/Tower2B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.1
+anchor_right = 1.0
+anchor_bottom = 0.9
+offset_top = 1.04904e-05
+offset_right = 1.0
+offset_bottom = -1.52588e-05
+texture = ExtResource("4_ep63d")
+expand_mode = 1
+
+[node name="Cost" type="Label" parent="Hotbar/Tower2B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.016
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.3
+offset_left = 0.00800002
+offset_top = 3.05176e-05
+offset_bottom = 5.00003
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+text = "500"
+horizontal_alignment = 1
+
+[node name="Tower3B" type="Button" parent="Hotbar"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.015
+anchor_top = 0.619
+anchor_right = 1.0
+anchor_bottom = 0.742
+offset_left = 0.0249999
+offset_top = -0.112
+offset_right = -1.0
+offset_bottom = 0.18399
+
+[node name="Tower" type="TextureRect" parent="Hotbar/Tower3B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.016
+anchor_top = 0.087
+anchor_right = 1.016
+anchor_bottom = 0.887
+offset_left = 0.00800002
+offset_top = 0.0399942
+offset_right = -1.008
+offset_bottom = 0.0399094
+texture = ExtResource("5_yfg4n")
+expand_mode = 1
+
+[node name="Cost" type="Label" parent="Hotbar/Tower3B"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.362
+offset_bottom = -4.79201
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+text = "500"
+horizontal_alignment = 1
+
+[node name="MenuButton" type="TextureButton" parent="."]
+process_mode = 3
+self_modulate = Color(1, 0, 1, 1)
+anchors_preset = -1
+anchor_left = 0.937
+anchor_top = 0.025
+anchor_right = 0.993
+anchor_bottom = 0.123
+offset_left = 8.57617
+offset_top = -0.200001
+offset_right = 8.06421
+offset_bottom = 0.295998
+texture_normal = ExtResource("1_6ppmm")
+texture_pressed = ExtResource("1_6ppmm")
+texture_hover = ExtResource("1_6ppmm")
+texture_disabled = ExtResource("1_6ppmm")
+texture_focused = ExtResource("1_6ppmm")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Info" type="ColorRect" parent="."]
+self_modulate = Color(1, 1, 1, 0.478431)
+anchors_preset = -1
+anchor_top = 0.914
+anchor_right = 0.167
+anchor_bottom = 0.998
+offset_top = -2.27203
+offset_right = -0.384018
+offset_bottom = 1.29596
+color = Color(0.12549, 0.0196078, 0.180392, 1)
+
+[node name="WaveLabel" type="Label" parent="Info" groups=["WaveLabel"]]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.375
+anchor_top = 0.571
+anchor_right = 0.516
+anchor_bottom = 0.982
+offset_top = -0.975998
+offset_right = -0.0720062
+offset_bottom = 24.008
+theme_override_fonts/font = ExtResource("6_cjjee")
+text = "-/-
+
+"
+
+[node name="CurrencyLabel" type="Label" parent="Info" groups=["CurrencyLabel"]]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.083
+anchor_top = 0.571
+anchor_right = 0.208
+anchor_bottom = 1.0
+offset_left = 0.0641165
+offset_top = -0.975977
+offset_right = -7.93589
+offset_bottom = -1.0
+theme_override_fonts/font = ExtResource("6_cjjee")
+text = "---
+"
+
+[node name="Pause" type="TextureButton" parent="."]
+anchors_preset = -1
+anchor_left = 0.007
+anchor_top = 0.914
+anchor_right = 0.042
+anchor_bottom = 0.975
+offset_left = -2.064
+offset_top = -3.27191
+offset_right = -2.384
+offset_bottom = -2.79987
+texture_normal = ExtResource("5_4t5yt")
+texture_pressed = ExtResource("5_4t5yt")
+texture_hover = ExtResource("5_4t5yt")
+texture_disabled = ExtResource("5_4t5yt")
+texture_focused = ExtResource("5_4t5yt")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Restart" type="TextureButton" parent="."]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.09
+anchor_top = 0.914
+anchor_right = 0.125
+anchor_bottom = 0.975
+offset_left = -1.68001
+offset_top = -3.27191
+offset_right = -2.0
+offset_bottom = -2.79987
+texture_normal = ExtResource("6_iqvy4")
+texture_pressed = ExtResource("6_iqvy4")
+texture_hover = ExtResource("6_iqvy4")
+texture_disabled = ExtResource("6_iqvy4")
+texture_focused = ExtResource("6_iqvy4")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Mute" type="TextureButton" parent="."]
+process_mode = 3
+anchors_preset = -1
+anchor_left = 0.132
+anchor_top = 0.914
+anchor_right = 0.167
+anchor_bottom = 0.978
+offset_left = -0.0639954
+offset_top = -2.27203
+offset_right = -0.384018
+offset_bottom = -3.74402
+texture_normal = ExtResource("12_ffqc1")
+texture_pressed = ExtResource("12_ffqc1")
+texture_hover = ExtResource("12_ffqc1")
+texture_disabled = ExtResource("12_ffqc1")
+texture_focused = ExtResource("12_ffqc1")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Play" type="TextureButton" parent="."]
+process_mode = 2
+anchors_preset = -1
+anchor_left = 0.049
+anchor_top = 0.914
+anchor_right = 0.086
+anchor_bottom = 0.975
+offset_left = -2.448
+offset_top = -3.27191
+offset_right = -5.07201
+offset_bottom = -2.79987
+texture_normal = ExtResource("6_routs")
+texture_pressed = ExtResource("6_routs")
+texture_hover = ExtResource("6_routs")
+texture_disabled = ExtResource("6_routs")
+texture_focused = ExtResource("6_routs")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Info2" type="ColorRect" parent="."]
+self_modulate = Color(1, 1, 1, 0.478431)
+anchors_preset = -1
+anchor_top = 0.852
+anchor_right = 0.111
+anchor_bottom = 0.91
+offset_top = -0.0960083
+offset_right = 0.127991
+offset_bottom = -2.67999
+color = Color(0.12549, 0.0196078, 0.180392, 1)
+
+[node name="ScoreLabel" type="Label" parent="Info2" groups=["ScoreLabel"]]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.062
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -2.48
+theme_override_fonts/font = ExtResource("6_cjjee")
+text = "---
+"
+vertical_alignment = 1
+
+[node name="BGMessage2" type="ColorRect" parent="." groups=["bg_message_2"]]
+visible = false
+self_modulate = Color(1, 1, 1, 0.658824)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -453.0
+offset_top = 10.0
+offset_right = -376.0
+offset_bottom = 62.0
+grow_horizontal = 2
+scale = Vector2(11.16, 1)
+size_flags_vertical = 0
+color = Color(1, 0, 1, 0.290196)
+
+[node name="BGMessage" type="ColorRect" parent="." groups=["bg_message_1"]]
+visible = false
+self_modulate = Color(1, 1, 1, 0.658824)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -448.0
+offset_top = 16.0
+offset_right = -372.0
+offset_bottom = 56.0
+grow_horizontal = 2
+scale = Vector2(11.16, 1)
+size_flags_vertical = 0
+color = Color(0, 0, 0, 1)
+
+[node name="Message" type="Label" parent="." groups=["TutorialCard"]]
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -447.0
+offset_top = 16.0
+offset_right = 398.0
+offset_bottom = 55.0
+grow_horizontal = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("6_cjjee")
+theme_override_font_sizes/font_size = 20
+text = "Message
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="item_selected" from="Hotbar/LocationSelect" to="." method="_on_location_select_item_selected"]
+[connection signal="pressed" from="Hotbar/RepairButton" to="." method="_on_repair_button_pressed"]
+[connection signal="pressed" from="Hotbar/Tower1B" to="." method="_on_tower_1b_pressed"]
+[connection signal="pressed" from="Hotbar/Tower2B" to="." method="_on_tower_2b_pressed"]
+[connection signal="pressed" from="Hotbar/Tower3B" to="." method="_on_tower_3b_pressed"]
+[connection signal="pressed" from="MenuButton" to="." method="_on_menu_button_pressed"]
+[connection signal="pressed" from="Pause" to="." method="_on_pause_pressed"]
+[connection signal="pressed" from="Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="Mute" to="." method="_on_mute_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

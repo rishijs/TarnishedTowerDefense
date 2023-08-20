@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://d12t6t5j55us6"]
+
+[ext_resource type="Script" path="res://Scripts/Projectile_Ice.gd" id="1_to68v"]
+[ext_resource type="Texture2D" uid="uid://b2akhtlhgv401" path="res://Art/Ice_projectile.png" id="2_3mj1d"]
+
+[node name="Tower1Projectile" type="RigidBody2D" groups=["Projectile", "Projectile1"]]
+process_thread_group = 2
+process_thread_group_order = 0
+process_thread_messages = 2
+collision_layer = 2
+gravity_scale = 0.0
+angular_velocity = 17.4533
+angular_damp_mode = 1
+script = ExtResource("1_to68v")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(6, 0)
+texture = ExtResource("2_3mj1d")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+show_behind_parent = true
+position = Vector2(4, 0)
+polygon = PackedVector2Array(-12, -25, 16, -25, 19, -17, 14, -11, 7, -12, -1, -7, -7, 4, -1, 11, 14, 17, 19, 23, 13, 29, -9, 27, -19, 20, -27, 8, -26, -4, -18, -17, -12, -25)

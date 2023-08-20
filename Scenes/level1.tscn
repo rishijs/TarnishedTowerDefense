@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=3 uid="uid://dppc60yusmvkd"]
+
+[ext_resource type="Script" path="res://Scripts/ReAdjust.gd" id="1_civcy"]
+[ext_resource type="PackedScene" uid="uid://ca7dobqxxvkvh" path="res://UI/interface.tscn" id="4_yalxj"]
+[ext_resource type="PackedScene" uid="uid://c4lbc2cidpqwy" path="res://Prefabs/map_1_tower_locations.tscn" id="5_0wgu5"]
+[ext_resource type="PackedScene" uid="uid://c4ifvquiy5mfw" path="res://Prefabs/spawner.tscn" id="5_1v86x"]
+[ext_resource type="PackedScene" uid="uid://dwsyf2nahnsdq" path="res://Scenes/game_menu.tscn" id="6_dfjbn"]
+[ext_resource type="PackedScene" uid="uid://c6yk3hnigeidu" path="res://Prefabs/map1.tscn" id="8_p18o1"]
+
+[node name="level1" type="Node2D" groups=["Head"]]
+
+[node name="Camera2D" type="Camera2D" parent="." groups=["Camera"]]
+script = ExtResource("1_civcy")
+
+[node name="Map1" parent="." instance=ExtResource("8_p18o1")]
+
+[node name="interface" parent="." instance=ExtResource("4_yalxj")]
+
+[node name="Spawner" parent="." instance=ExtResource("5_1v86x")]
+
+[node name="Map1TowerLocations" parent="." instance=ExtResource("5_0wgu5")]
+
+[node name="Effects" type="Node" parent="." groups=["Effects"]]
+
+[node name="game_menu" parent="." groups=["game_menu"] instance=ExtResource("6_dfjbn")]
+visible = false

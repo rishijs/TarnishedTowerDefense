@@ -1,0 +1,105 @@
+[gd_scene load_steps=8 format=3 uid="uid://blledyvdjl0qa"]
+
+[ext_resource type="PackedScene" uid="uid://c7lqleda3x2is" path="res://Scenes/bonus_map_1.tscn" id="1_7noos"]
+[ext_resource type="Script" path="res://Scripts/ReAdjust.gd" id="1_pbipg"]
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="2_es7sb"]
+[ext_resource type="Script" path="res://Scripts/MainMenuButtons.gd" id="3_mvnoy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cvasn"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.537255, 0, 0.8, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kltfo"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.8, 0, 0.8, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e3ub4"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 0.705882, 0.984314, 1)
+
+[node name="main_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("1_pbipg")
+
+[node name="bonus_map_1" parent="." instance=ExtResource("1_7noos")]
+
+[node name="MainMenuButtons" type="CanvasLayer" parent="."]
+script = ExtResource("3_mvnoy")
+
+[node name="Button" type="Button" parent="MainMenuButtons"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 128.0
+offset_top = -216.0
+offset_right = 384.0
+offset_bottom = -151.0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_cvasn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kltfo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e3ub4")
+text = "PLAY"
+
+[node name="Button2" type="Button" parent="MainMenuButtons"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 128.0
+offset_top = -136.0
+offset_right = 384.0
+offset_bottom = -71.0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_cvasn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_kltfo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_e3ub4")
+text = "CREDITS"
+
+[node name="Label" type="Label" parent="MainMenuButtons"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -784.0
+offset_top = -8.0
+offset_right = -4.0
+offset_bottom = 180.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.67451, 0.65098, 1, 1)
+theme_override_fonts/font = ExtResource("2_es7sb")
+theme_override_font_sizes/font_size = 150
+text = "TARNISHED"
+
+[node name="Label2" type="Label" parent="MainMenuButtons"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -320.0
+offset_top = 160.0
+offset_right = -34.0
+offset_bottom = 213.0
+grow_horizontal = 0
+theme_override_colors/font_color = Color(0.521569, 0.454902, 1, 1)
+theme_override_fonts/font = ExtResource("2_es7sb")
+theme_override_font_sizes/font_size = 40
+text = "Tower Defense"
+
+[connection signal="pressed" from="MainMenuButtons/Button" to="MainMenuButtons" method="_on_button_pressed"]
+[connection signal="pressed" from="MainMenuButtons/Button2" to="MainMenuButtons" method="_on_button_2_pressed"]

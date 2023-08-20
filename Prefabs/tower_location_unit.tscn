@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7pvglp7m8pgu"]
+
+[ext_resource type="FontFile" uid="uid://btoj88qbk1k81" path="res://Font/century-gothic/Century Gothic.ttf" id="1_8ebco"]
+[ext_resource type="Texture2D" uid="uid://d1jqu4jtal7m4" path="res://Art/Iso_Grass_Tower.png" id="2_otsov"]
+
+[node name="TowerLocation1" type="Label"]
+top_level = true
+z_as_relative = false
+offset_left = -480.0
+offset_top = -192.0
+offset_right = -448.0
+offset_bottom = -120.0
+rotation = -0.523599
+theme_override_colors/font_color = Color(0.8, 0.647059, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_8ebco")
+theme_override_font_sizes/font_size = 30
+text = "1
+"
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(-22.9282, 23.7128)
+rotation = 0.471239
+
+[node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_otsov")

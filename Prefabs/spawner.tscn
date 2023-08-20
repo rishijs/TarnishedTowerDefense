@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4ifvquiy5mfw"]
+
+[ext_resource type="Script" path="res://Scripts/Spawner.gd" id="2_ewrj1"]
+
+[node name="Spawner" type="Sprite2D" groups=["Spawner"]]
+scale = Vector2(0.25, 0.25)
+script = ExtResource("2_ewrj1")
