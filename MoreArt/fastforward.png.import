@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://depc324i6hbm2"
-path="res://.godot/imported/fastforward.png-e12de38cf12c9c99f9509e1950873d82.ctex"
+path="res://.godot/imported/fastforward.png-132ccf6a7c89cc4b40a5d91616055534.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/fastforward.png"
-dest_files=["res://.godot/imported/fastforward.png-e12de38cf12c9c99f9509e1950873d82.ctex"]
+source_file="res://MoreArt/fastforward.png"
+dest_files=["res://.godot/imported/fastforward.png-132ccf6a7c89cc4b40a5d91616055534.ctex"]
 
 [params]
 

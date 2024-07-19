@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dba1hmgxlna83"
-path="res://.godot/imported/enemy_last_breath.png-9cb0e2d2df9967a2f3e4fe86810ea912.ctex"
+path="res://.godot/imported/enemy_last_breath.png-4266fb5335f5684db3bb13f714bbe44a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/enemy_last_breath.png"
-dest_files=["res://.godot/imported/enemy_last_breath.png-9cb0e2d2df9967a2f3e4fe86810ea912.ctex"]
+source_file="res://MoreArt/enemy_last_breath.png"
+dest_files=["res://.godot/imported/enemy_last_breath.png-4266fb5335f5684db3bb13f714bbe44a.ctex"]
 
 [params]
 

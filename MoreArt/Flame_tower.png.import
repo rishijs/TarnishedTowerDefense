@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyedqemksgqwg"
-path="res://.godot/imported/Flame_tower.png-55050240a2ab8896411baa476bd44def.ctex"
+path="res://.godot/imported/Flame_tower.png-3360e8edc87bbcd51843c2086145e90b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Flame_tower.png"
-dest_files=["res://.godot/imported/Flame_tower.png-55050240a2ab8896411baa476bd44def.ctex"]
+source_file="res://MoreArt/Flame_tower.png"
+dest_files=["res://.godot/imported/Flame_tower.png-3360e8edc87bbcd51843c2086145e90b.ctex"]
 
 [params]
 

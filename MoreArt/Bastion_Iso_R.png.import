@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckuw15d60wii5"
-path="res://.godot/imported/Bastion_Iso_R.png-233b218d39537f3142bc8fcb247b2060.ctex"
+path="res://.godot/imported/Bastion_Iso_R.png-4b7a5366e8ac73853d38eb3cec0f2907.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Bastion_Iso_R.png"
-dest_files=["res://.godot/imported/Bastion_Iso_R.png-233b218d39537f3142bc8fcb247b2060.ctex"]
+source_file="res://MoreArt/Bastion_Iso_R.png"
+dest_files=["res://.godot/imported/Bastion_Iso_R.png-4b7a5366e8ac73853d38eb3cec0f2907.ctex"]
 
 [params]
 

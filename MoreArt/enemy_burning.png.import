@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm0iuiwxf41sr"
-path="res://.godot/imported/enemy_burning.png-cb6df58ee402cf96f5d7d261827e74f3.ctex"
+path="res://.godot/imported/enemy_burning.png-1e92b2c96301238cbf8952736fb6e62f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/enemy_burning.png"
-dest_files=["res://.godot/imported/enemy_burning.png-cb6df58ee402cf96f5d7d261827e74f3.ctex"]
+source_file="res://MoreArt/enemy_burning.png"
+dest_files=["res://.godot/imported/enemy_burning.png-1e92b2c96301238cbf8952736fb6e62f.ctex"]
 
 [params]
 

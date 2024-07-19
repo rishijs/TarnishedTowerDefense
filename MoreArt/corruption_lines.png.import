@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c35wxohwtsjbm"
-path="res://.godot/imported/corruption_lines.png-d9a494ed6d0f517e4484776aff941c0a.ctex"
+path="res://.godot/imported/corruption_lines.png-774baf68dd77bb9fcead6aeee28506a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/corruption_lines.png"
-dest_files=["res://.godot/imported/corruption_lines.png-d9a494ed6d0f517e4484776aff941c0a.ctex"]
+source_file="res://MoreArt/corruption_lines.png"
+dest_files=["res://.godot/imported/corruption_lines.png-774baf68dd77bb9fcead6aeee28506a5.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://leul6hx0ko5l"
-path="res://.godot/imported/curse_enemy_base_3.png-46a77f2fbb63f276b3adcb52e97698b8.ctex"
+path="res://.godot/imported/curse_enemy_base_3.png-8c2d2ee762e46439b6c7d7d82ef73b96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/curse_enemy_base_3.png"
-dest_files=["res://.godot/imported/curse_enemy_base_3.png-46a77f2fbb63f276b3adcb52e97698b8.ctex"]
+source_file="res://MoreArt/curse_enemy_base_3.png"
+dest_files=["res://.godot/imported/curse_enemy_base_3.png-8c2d2ee762e46439b6c7d7d82ef73b96.ctex"]
 
 [params]
 

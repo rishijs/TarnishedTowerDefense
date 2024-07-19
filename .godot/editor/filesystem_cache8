@@ -1,0 +1,140 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1721361986
+export_presets.cfg::TextFile::-1::1721361944::0::1::::<><>::
+icon.svg::CompressedTexture2D::5181648236994640465::1721361944::1721361990::1::::<><>::
+README.md::TextFile::-1::1721361944::0::1::::<><>::
+::res://Art/::1721361943
+Grass_1_2x.png::CompressedTexture2D::9169387345797365967::1721361943::1721361990::1::::<><>::
+green_square.png::CompressedTexture2D::8881742599012286651::1721361943::1721361990::1::::<><>::
+Ice_projectile.png::CompressedTexture2D::4282140147668401416::1721361943::1721361990::1::::<><>::
+Ice_projectile_outline.png::CompressedTexture2D::2368220935567845864::1721361943::1721361990::1::::<><>::
+Ice_tower.png::CompressedTexture2D::1490882054469965836::1721361943::1721361990::1::::<><>::
+Iso_Grass.png::CompressedTexture2D::782088821878631599::1721361943::1721361990::1::::<><>::
+Iso_Grass_Enlarged.png::CompressedTexture2D::6734010057727298461::1721361943::1721361990::1::::<><>::
+Iso_Grass_Green.png::CompressedTexture2D::6390991441134454535::1721361943::1721361990::1::::<><>::
+Iso_Grass_Tower.png::CompressedTexture2D::9003760111161181229::1721361943::1721361990::1::::<><>::
+lunar_projectile.png::CompressedTexture2D::2689923435673398618::1721361943::1721361990::1::::<><>::
+Lunar_tower.png::CompressedTexture2D::140986009899261848::1721361943::1721361990::1::::<><>::
+Lunar_tower_bright.png::CompressedTexture2D::6943909631190656473::1721361943::1721361990::1::::<><>::
+Lunar_tower_darker.png::CompressedTexture2D::3492707908731387694::1721361943::1721361990::1::::<><>::
+Mute.png::CompressedTexture2D::3953081641262321929::1721361943::1721361990::1::::<><>::
+Pause.png::CompressedTexture2D::2653947278796372108::1721361943::1721361990::1::::<><>::
+Play.png::CompressedTexture2D::4836882617897572990::1721361943::1721361990::1::::<><>::
+red_square.png::CompressedTexture2D::372738675476266514::1721361943::1721361990::1::::<><>::
+Restart.png::CompressedTexture2D::1686808167599904563::1721361943::1721361990::1::::<><>::
+slider2.png::CompressedTexture2D::3699085897061055883::1721361943::1721361990::1::::<><>::
+slider3.png::CompressedTexture2D::7657670135767019839::1721361943::1721361990::1::::<><>::
+slider4.png::CompressedTexture2D::8684985027405083157::1721361943::1721361990::1::::<><>::
+slider.png::CompressedTexture2D::7530020302191451555::1721361943::1721361990::1::::<><>::
+Tarnished_game_cover_pic - ico.png::CompressedTexture2D::5637439678439699098::1721361943::1721361990::1::::<><>::
+Tarnished_game_cover_pic.png::CompressedTexture2D::2977360496370384431::1721361943::1721361990::1::::<><>::
+tower1.png::CompressedTexture2D::9026176196709248009::1721361943::1721361990::1::::<><>::
+tower1projectile.png::CompressedTexture2D::3978778240363494719::1721361943::1721361991::1::::<><>::
+tower2.png::CompressedTexture2D::8616206521515313887::1721361943::1721361990::1::::<><>::
+tower2projectile.png::CompressedTexture2D::5555107146414136705::1721361943::1721361991::1::::<><>::
+tower3.png::CompressedTexture2D::6647897925180364562::1721361943::1721361990::1::::<><>::
+tower3projectile.png::CompressedTexture2D::3496725531854138262::1721361943::1721361991::1::::<><>::
+white_square.png::CompressedTexture2D::4687158031506134881::1721361943::1721361990::1::::<><>::
+::res://Font/::1721361943
+More.png::CompressedTexture2D::6426346311661666644::1721361943::1721361990::1::::<><>::
+::res://Font/century-gothic/::1721361943
+Century Gothic.ttf::FontFile::3749517143553571764::1721361943::1721361990::1::::<><>::
+CenturyGothic.ttf::FontFile::3798990721027168887::1721361943::1721361990::1::::<><>::
+GOTHIC.TTF::FontFile::3732963946749594872::1721361943::1721361990::1::::<><>::
+GOTHICB0.TTF::FontFile::1909108545557477744::1721361943::1721361990::1::::<><>::
+GOTHICB.TTF::FontFile::3617474365729189350::1721361943::1721361990::1::::<><>::
+GOTHICBI.TTF::FontFile::4939052017469808195::1721361943::1721361990::1::::<><>::
+GOTHICI.TTF::FontFile::7266830021068871351::1721361943::1721361990::1::::<><>::
+sharefonts.net.txt::TextFile::-1::1721361943::0::1::::<><>::
+::res://MoreArt/::1721361944
+18861-radial_gradient.png::CompressedTexture2D::7400903674692279391::1721361943::1721361990::1::::<><>::
+Bastion_Iso_L.png::CompressedTexture2D::7323549304309355416::1721361943::1721361990::1::::<><>::
+Bastion_Iso_R.png::CompressedTexture2D::5517401145107809326::1721361943::1721361990::1::::<><>::
+blue_square.png::CompressedTexture2D::7180284090681429657::1721361944::1721361990::1::::<><>::
+corruption_lines.png::CompressedTexture2D::6801437916139797522::1721361944::1721361990::1::::<><>::
+curse_enemy_base.png::CompressedTexture2D::4727612349185858126::1721361944::1721361990::1::::<><>::
+curse_enemy_base_2.png::CompressedTexture2D::3554490738787918293::1721361944::1721361990::1::::<><>::
+curse_enemy_base_3.png::CompressedTexture2D::781570414739197247::1721361944::1721361990::1::::<><>::
+curse_enemy_icon.png::CompressedTexture2D::4437706317894886461::1721361944::1721361990::1::::<><>::
+dark_square.png::CompressedTexture2D::6015304869571047892::1721361944::1721361990::1::::<><>::
+enemy_base.png::CompressedTexture2D::8801275759085181790::1721361944::1721361990::1::::<><>::
+enemy_burning.png::CompressedTexture2D::3280818158246578933::1721361944::1721361990::1::::<><>::
+enemy_critical_strike.png::CompressedTexture2D::2476227718071024736::1721361944::1721361990::1::::<><>::
+enemy_fortified.png::CompressedTexture2D::8638688777382165041::1721361944::1721361990::1::::<><>::
+enemy_frozen.png::CompressedTexture2D::2919362003843000419::1721361944::1721361990::1::::<><>::
+enemy_hit.png::CompressedTexture2D::1880164167645831845::1721361944::1721361990::1::::<><>::
+enemy_last_breath.png::CompressedTexture2D::7231042677695852662::1721361944::1721361990::1::::<><>::
+enemy_overlord.png::CompressedTexture2D::1629558070446150295::1721361944::1721361990::1::::<><>::
+fastforward.png::CompressedTexture2D::7471155991492167839::1721361944::1721361990::1::::<><>::
+Flame_projectile.png::CompressedTexture2D::2420084520086209608::1721361943::1721361990::1::::<><>::
+Flame_projectile_outline.png::CompressedTexture2D::7921249751430221167::1721361943::1721361990::1::::<><>::
+Flame_tower.png::CompressedTexture2D::6465842078505713090::1721361943::1721361990::1::::<><>::
+Grass_1.png::CompressedTexture2D::3152016070496745525::1721361944::1721361990::1::::<><>::
+Grass_1_2x.png::CompressedTexture2D::9169387345797365967::1721361944::1721361990::1::::<><>::
+TarnishedTDIco.jpg::CompressedTexture2D::1934415167733503325::1721361944::1721361990::1::::<><>::
+::res://Prefabs/::1721361944
+bastion.tscn::PackedScene::3161030419134759598::1721361944::0::1::::<><>::res://Scripts/Bastion.gd<>uid://ckuw15d60wii5::::res://Art/Bastion_Iso_R.png<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf
+critical.tscn::PackedScene::7319762708623519348::1721361944::0::1::::<><>::uid://bbjrdxxy2nkc3::::res://Art/enemy_critical_strike.png<>res://Scripts/hit_effect.gd<>uid://b3wrjyp23upqf::::res://Sound/crit_sound.ogg
+enemy_base.tscn::PackedScene::4994258395869374782::1721361944::0::1::::<><>::res://Scripts/EnemyBase.gd<>uid://dxnnyxdt0noao::::res://Art/enemy_base.png<>uid://bm0iuiwxf41sr::::res://Art/enemy_burning.png<>uid://bhufp3lb3ont0::::res://Art/enemy_frozen.png
+enemy_fortified.tscn::PackedScene::924076672014143165::1721361944::0::1::::<><>::res://Scripts/EnemyBase.gd<>uid://dvcv7a80vnd5r::::res://Art/enemy_fortified.png<>uid://bm0iuiwxf41sr::::res://Art/enemy_burning.png<>uid://bhufp3lb3ont0::::res://Art/enemy_frozen.png
+enemy_last_breath.tscn::PackedScene::6538207403912931878::1721361944::0::1::::<><>::res://Scripts/EnemyBase.gd<>uid://dba1hmgxlna83::::res://Art/enemy_last_breath.png<>uid://bm0iuiwxf41sr::::res://Art/enemy_burning.png<>uid://bhufp3lb3ont0::::res://Art/enemy_frozen.png
+enemy_overlord.tscn::PackedScene::109120144501199317::1721361944::0::1::::<><>::res://Scripts/EnemyBase.gd<>uid://xhmt3lsxjoqh::::res://Art/enemy_overlord.png<>uid://bm0iuiwxf41sr::::res://Art/enemy_burning.png<>uid://bhufp3lb3ont0::::res://Art/enemy_frozen.png
+hit_effect.tscn::PackedScene::7603611562563358072::1721361944::0::1::::<><>::uid://111a8xspop5n::::res://Art/enemy_hit.png<>uid://bbjrdxxy2nkc3::::res://Art/enemy_critical_strike.png
+map1.tscn::PackedScene::6998898146537218778::1721361944::0::1::::<><>::uid://le35hi1tvetb::::res://Art/Iso_Grass.png<>uid://ddpb2jndxdnd4::::res://Art/18861-radial_gradient.png<>res://Scripts/Bounds.gd<>uid://b71q2qayfal0t::::res://Art/white_square.png<>res://Scripts/BackgroundLight.gd<>uid://blbhyd2ire2rq::::res://Prefabs/bastion.tscn
+map1_v1.tscn::PackedScene::148135526193783512::1721361944::0::1::::<><>::uid://bmssmnlk8mrhh::::res://Presets/map1t.tres<>uid://crx4gsmkvwwq3::::res://Art/dark_square.png<>res://Scripts/Bounds.gd
+map_1v2.tscn::PackedScene::6105283002133741599::1721361944::0::1::::<><>::uid://le35hi1tvetb::::res://Art/Iso_Grass.png<>uid://c27afrbmu2m18::::res://Art/Iso_Grass_Enlarged.png<>res://Scripts/Bounds.gd
+map_1_tower_locations.tscn::PackedScene::6831091698352538988::1721361944::0::1::::<><>::uid://c7pvglp7m8pgu::::res://Prefabs/tower_location_unit.tscn
+regular.tscn::PackedScene::3952446492053115740::1721361944::0::1::::<><>::uid://111a8xspop5n::::res://Art/enemy_hit.png<>res://Scripts/hit_effect.gd<>uid://rj2el6cus507::::res://Sound/pop_reverb_sound.ogg
+return.tscn::PackedScene::5869726607901608398::1721361944::0::1::::<><>::uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>res://Scripts/Return_Main.gd
+spawner.tscn::PackedScene::6825174813223893856::1721361944::0::1::::<><>::res://Scripts/Spawner.gd
+tower_1.tscn::PackedScene::3520435561829122032::1721361944::0::1::::<><>::res://Scripts/Tower_1.gd<>uid://viguyymrlwy3::::res://Art/Ice_tower.png<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://c35wxohwtsjbm::::res://Art/corruption_lines.png<>uid://dbflwgskshy8y::::res://Sound/corruption_sound.ogg<>uid://b5dq8wu56rty8::::res://Presets/tower_2 (2).tres<>uid://d3e0a16jnyd8m::::res://Presets/tower_2.tres
+tower_1_projectile.tscn::PackedScene::9041120212239370691::1721361944::0::1::::<><>::res://Scripts/Projectile_Ice.gd<>uid://b2akhtlhgv401::::res://Art/Ice_projectile.png
+tower_2.tscn::PackedScene::266690031687939465::1721361944::0::1::::<><>::res://Scripts/Tower_2.gd<>uid://bp05nhv581sta::::res://Art/Lunar_tower_darker.png<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://dbflwgskshy8y::::res://Sound/corruption_sound.ogg<>uid://c35wxohwtsjbm::::res://Art/corruption_lines.png<>uid://b5dq8wu56rty8::::res://Presets/tower_2 (2).tres<>uid://d3e0a16jnyd8m::::res://Presets/tower_2.tres
+tower_2_projectile.tscn::PackedScene::2200930596127425974::1721361944::0::1::::<><>::res://Scripts/Projectile_Lunar.gd<>uid://belav70yc2hpi::::res://Art/lunar_projectile.png
+tower_3.tscn::PackedScene::6735916234393325158::1721361944::0::1::::<><>::res://Scripts/Tower_3.gd<>uid://cyedqemksgqwg::::res://Art/Flame_tower.png<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://dbflwgskshy8y::::res://Sound/corruption_sound.ogg<>uid://c35wxohwtsjbm::::res://Art/corruption_lines.png<>uid://b5dq8wu56rty8::::res://Presets/tower_2 (2).tres<>uid://d3e0a16jnyd8m::::res://Presets/tower_2.tres
+tower_3_projectile.tscn::PackedScene::4012565429662198463::1721361944::0::1::::<><>::res://Scripts/Projectile_Flame.gd<>uid://baqko54rkfvga::::res://Art/Flame_projectile.png
+tower_location_unit.tscn::PackedScene::7051136404125862180::1721361944::0::1::::<><>::uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://d1jqu4jtal7m4::::res://Art/Iso_Grass_Tower.png
+::res://Presets/::1721361944
+map1.tres::TileSet::291392841628806712::1721361944::0::1::::<><>::
+map1t.tres::TileSet::3266960642614566057::1721361944::0::1::::<><>::uid://dysnadou1kgyd::::res://Art/green_square.png<>uid://d3vyp8h1nbl7l::::res://Art/Grass_1_2x.png
+new_style_box_flat.tres::StyleBoxFlat::4391290476730655966::1721361944::0::1::::<><>::
+tower_2 (2).tres::StyleBoxFlat::4499310716994348501::1721361944::0::1::::<><>::
+tower_2.tres::StyleBoxFlat::9134326522702890346::1721361944::0::1::::<><>::
+::res://Scenes/::1721361944
+bonus_map_1.tscn::PackedScene::7042583849481279942::1721361944::0::1::::<><>::uid://le35hi1tvetb::::res://Art/Iso_Grass.png<>uid://ddpb2jndxdnd4::::res://Art/18861-radial_gradient.png<>uid://b71q2qayfal0t::::res://Art/white_square.png<>res://Scripts/BackgroundLight.gd<>res://Scripts/ReAdjust.gd<>uid://dclt103r8l0bk::::res://Art/Bastion_Iso_L.png<>uid://bp05nhv581sta::::res://Art/Lunar_tower_darker.png<>uid://viguyymrlwy3::::res://Art/Ice_tower.png<>uid://cyedqemksgqwg::::res://Art/Flame_tower.png<>uid://c35wxohwtsjbm::::res://Art/corruption_lines.png
+contributions.tscn::PackedScene::2212352048845644498::1721361944::0::1::::<><>::uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://cpvlsl3tsgg1s::::res://Prefabs/return.tscn
+defeat.tscn::PackedScene::1985521251016060220::1721361944::0::1::::<><>::uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://cpvlsl3tsgg1s::::res://Prefabs/return.tscn<>uid://ckuw15d60wii5::::res://Art/Bastion_Iso_R.png<>res://Scripts/Postgame_Score.gd
+game_menu.tscn::PackedScene::8742042985707808726::1721361944::0::1::::<><>::res://Scripts/game_menu.gd<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://b3tf6a65n672a::::res://Presets/new_style_box_flat.tres
+level1.tscn::PackedScene::8243238516649588651::1721361944::0::1::::<><>::res://Scripts/ReAdjust.gd<>uid://ca7dobqxxvkvh::::res://UI/interface.tscn<>uid://c4lbc2cidpqwy::::res://Prefabs/map_1_tower_locations.tscn<>uid://c4ifvquiy5mfw::::res://Prefabs/spawner.tscn<>uid://dwsyf2nahnsdq::::res://Scenes/game_menu.tscn<>uid://c6yk3hnigeidu::::res://Prefabs/map1.tscn
+main_menu.tscn::PackedScene::3181455637508986636::1721361944::0::1::::<><>::uid://c7lqleda3x2is::::res://Scenes/bonus_map_1.tscn<>res://Scripts/ReAdjust.gd<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>res://Scripts/MainMenuButtons.gd
+victory.tscn::PackedScene::342157861887412123::1721361944::0::1::::<><>::uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://cpvlsl3tsgg1s::::res://Prefabs/return.tscn<>uid://ckuw15d60wii5::::res://Art/Bastion_Iso_R.png<>res://Scripts/Postgame_Score.gd
+::res://Scripts/::1721361944
+BackgroundLight.gd::GDScript::-1::1721361944::0::1::::<>PointLight2D<>::
+Bastion.gd::GDScript::-1::1721361944::0::1::::<>Area2D<>::
+Bounds.gd::GDScript::-1::1721361944::0::1::::<>Area2D<>::
+EnemyBase.gd::GDScript::-1::1721361944::0::1::::<>PathFollow2D<>::
+game_menu.gd::GDScript::-1::1721361944::0::1::::<>CanvasLayer<>::
+global.gd::GDScript::-1::1721361944::0::1::::<>Node<>::
+hit_effect.gd::GDScript::-1::1721361944::0::1::::<>Sprite2D<>::
+MainMenuButtons.gd::GDScript::-1::1721361944::0::1::::<>CanvasLayer<>::
+Postgame_Score.gd::GDScript::-1::1721361944::0::1::::<>Label<>::
+Projectile_Flame.gd::GDScript::-1::1721361944::0::1::::<>RigidBody2D<>::
+Projectile_Ice.gd::GDScript::-1::1721361944::0::1::::<>RigidBody2D<>::
+Projectile_Lunar.gd::GDScript::-1::1721361944::0::1::::<>RigidBody2D<>::
+ReAdjust.gd::GDScript::-1::1721361944::0::1::::<>Camera2D<>::
+Return_Main.gd::GDScript::-1::1721361944::0::1::::<>Button<>::
+Spawner.gd::GDScript::-1::1721361944::0::1::::<>Sprite2D<>::
+Tower.gd::GDScript::-1::1721361944::0::1::::<>Node<>::
+Tower_1.gd::GDScript::-1::1721361944::0::1::::<>Node<>::
+Tower_2.gd::GDScript::-1::1721361944::0::1::::<>Node<>::
+Tower_3.gd::GDScript::-1::1721361944::0::1::::<>Node<>::
+::res://Sound/::1721361944
+corruption_sound.ogg::AudioStreamOggVorbis::7240480301299265906::1721361944::1721361990::1::::<><>::
+crit_sound.ogg::AudioStreamOggVorbis::4398174162166944353::1721361944::1721361990::1::::<><>::
+pop_reverb_sound.ogg::AudioStreamOggVorbis::1213436869377531706::1721361944::1721361990::1::::<><>::
+pop_sound.ogg::AudioStreamOggVorbis::3496455314343867466::1721361944::1721361990::1::::<><>::
+repair_sound.ogg::AudioStreamOggVorbis::7692317836403951647::1721361944::1721361990::1::::<><>::
+::res://UI/::1721361944
+interface.gd::GDScript::-1::1721361944::0::1::::<>CanvasLayer<>::
+interface.tscn::PackedScene::4839108685925891825::1721361944::0::1::::<><>::uid://cr4hbtfxmuigx::::res://UI/More.png<>res://UI/interface.gd<>uid://dhdoyc3psbmd8::::res://Art/slider3.png<>uid://dv0co1j7ildov::::res://Art/slider4.png<>uid://viguyymrlwy3::::res://Art/Ice_tower.png<>uid://bp05nhv581sta::::res://Art/Lunar_tower_darker.png<>uid://bd2uehjfdsxei::::res://Art/Pause.png<>uid://dhuhl6v6qheup::::res://Sound/repair_sound.ogg<>uid://cyedqemksgqwg::::res://Art/Flame_tower.png<>uid://btoj88qbk1k81::::res://Font/century-gothic/Century Gothic.ttf<>uid://ybdqpucljvx0::::res://Art/Restart.png<>uid://ca6a0rbsvgb1g::::res://Art/Play.png<>uid://bwk5xax6htc38::::res://Art/Mute.png
+More.png::CompressedTexture2D::6026346475573277443::1721361944::1721361990::1::::<><>::

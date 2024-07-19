@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhufp3lb3ont0"
-path="res://.godot/imported/enemy_frozen.png-ec8141bbf3710930fbbfe4f69c55fed4.ctex"
+path="res://.godot/imported/enemy_frozen.png-a12f774c4051053965d9ecbc05ace6c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/enemy_frozen.png"
-dest_files=["res://.godot/imported/enemy_frozen.png-ec8141bbf3710930fbbfe4f69c55fed4.ctex"]
+source_file="res://MoreArt/enemy_frozen.png"
+dest_files=["res://.godot/imported/enemy_frozen.png-a12f774c4051053965d9ecbc05ace6c5.ctex"]
 
 [params]
 
